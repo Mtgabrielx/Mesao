@@ -1,11 +1,50 @@
 @charset "UTF-08";
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Permanent+Marker&display=swap');
+
 :root{
-    --cor0:#FFC645;
-    --cor1:#F4B14A;
-    --cor2:#F7B54B;
-    --cor3:#E99D4F;
-    --cor4:#DE904E;
+    --cor0:#F2AB27;
+    --cor1:#D97F11;
+    --cor2:#D96B52;
+    --cor3:#8736D9;
+    --cor4:#914BBF;
+
+    --font-titulo: 'Metal Mania', cursive;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
 body{
-    background-color: var(--cor2);
+    background-color: var(--cor0);
+    text-align: center;
+}
+
+header{
+    background-color: var(--cor1);
+    font-size: 2em;
+    
+}
+
+header > h1{
+    font-family: var(--font-titulo);
+}
+
+header nav{
+    padding: 0px 0px 15px 0px;
+}
+
+main > article{
+    background-color: rgb(255, 240, 224);
+    min-width: 352px;
+    max-width: 1000px;
+    text-align: justify;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+article span{
+    font-weight: bold;
 }
